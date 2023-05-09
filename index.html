@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Anim</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <svg viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" height="100%" width="100%">
+        <circle cx="500" cy="1000" r="20" fill="none" stroke="#211D34" stroke-width="4">
+            <animateTransform id="anim1" attributeName="transform" attributeType="XML" type="translate" to="0 -200"
+                dur="0.5s" fill="freeze" />
+            <!-- <animateTransform id="anim2" attributeName="transform" attributeType="XML" type="translate" from="0 -300"
+                to="-350 -350" begin="anim1.end" dur="0.5s" fill="freeze" />
+            <animateTransform id="anim3" attributeName="transform" attributeType="XML" type="translate" from="-30 -30"
+                to="30 -30" begin="anim2.end" dur="0.5s" fill="freeze" /> -->
+            <!-- <animateTransform id="anim4" attributeName="transform" attributeType="XML" type="translate" from="30 -30"
+                to="0 -30" begin="anim3.end" dur="0.5s" fill="freeze" /> -->
+            <!-- <animate attributeName="r" values="2; 1; 2" keyTimes="0; 0.5; 1" dur="2s" repeatCount="indefinite" /> -->
+        </circle>
+
+    </svg>
+</body>
+
+</html>
