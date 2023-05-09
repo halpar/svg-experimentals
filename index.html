@@ -11,18 +11,18 @@
 
 <body>
     <svg viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet" height="100%" width="100%">
-        <circle cx="500" cy="1000" r="20" fill="none" stroke="#211D34" stroke-width="4">
-            <animateTransform id="anim1" attributeName="transform" attributeType="XML" type="translate" to="0 -200"
-                dur="0.5s" fill="freeze" />
-            <!-- <animateTransform id="anim2" attributeName="transform" attributeType="XML" type="translate" from="0 -300"
-                to="-350 -350" begin="anim1.end" dur="0.5s" fill="freeze" />
-            <animateTransform id="anim3" attributeName="transform" attributeType="XML" type="translate" from="-30 -30"
-                to="30 -30" begin="anim2.end" dur="0.5s" fill="freeze" /> -->
-            <!-- <animateTransform id="anim4" attributeName="transform" attributeType="XML" type="translate" from="30 -30"
-                to="0 -30" begin="anim3.end" dur="0.5s" fill="freeze" /> -->
-            <!-- <animate attributeName="r" values="2; 1; 2" keyTimes="0; 0.5; 1" dur="2s" repeatCount="indefinite" /> -->
-        </circle>
+        <ellipse cx="0" cy="0" rx="50" ry="50" stroke="red" stroke-width="4" fill="none">
 
+            <animate attributeName="cy" from="1000" to="500" dur="1s" begin="0s" calcMode="spline" keyTimes="0; 1" keySplines="0.25 0.1 0.25 1" fill="freeze"/>
+            <animate attributeName="cy" from="500" to="550" dur="0.25s" begin="1s" calcMode="spline" keyTimes="0; 1" keySplines="0.42 0 0.58 1" fill="freeze"/>
+            <animate attributeName="cy" from="550" to="510" dur="0.2s" begin="1.25s" calcMode="spline" keyTimes="0; 1" keySplines="0.42 0 0.58 1" fill="freeze"/>
+            <animate attributeName="cy" from="510" to="530" dur="0.15s" begin="1.45s" calcMode="spline" keyTimes="0; 1" keySplines="0.42 0 0.58 1" fill="freeze"/>
+            <animate attributeName="cy" from="530" to="520" dur="0.1s" begin="1.6s" calcMode="spline" keyTimes="0; 1" keySplines="0.42 0 0.58 1" fill="freeze"/>
+ <!-- bounce dur 1.7s -->
+
+             <animate attributeName="rx" from="50" to="200" dur="0.2s" begin="1.72s" fill="freeze"/>
+             <animate attributeName="ry" from="50" to="40" dur="0.2s" begin="1.72s" fill="freeze" />
+          </ellipse>
     </svg>
 </body>
 
