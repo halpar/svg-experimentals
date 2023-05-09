@@ -1,0 +1,22 @@
+<svg id="be452e83-5912-4855-80f8-a79ecab91838" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid meet" height="100%" width="100%">
+    <filter id="simple-filter">
+        <feDropShadow dx="2" dy="2" stdDeviation="4" />
+    </filter>
+    <ellipse cx="250" cy="0" rx="50" ry="50" stroke="red" stroke-width="4" fill="none" filter="url(#simple-filter)">
+
+        <animate attributeName="cy" from="1000" to="500" dur="1s" begin="0s" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.25 0.1 0.25 1" fill="freeze" />
+        <animate attributeName="cy" from="500" to="550" dur="0.25s" begin="1s" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.42 0 0.58 1" fill="freeze" />
+        <animate attributeName="cy" from="550" to="510" dur="0.2s" begin="1.25s" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.42 0 0.58 1" fill="freeze" />
+        <animate attributeName="cy" from="510" to="530" dur="0.15s" begin="1.45s" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.42 0 0.58 1" fill="freeze" />
+        <animate attributeName="cy" from="530" to="520" dur="0.1s" begin="1.6s" calcMode="spline" keyTimes="0; 1"
+            keySplines="0.42 0 0.58 1" fill="freeze" />
+        <!-- bounce dur 1.7s -->
+        <animate attributeName="rx" from="50" to="200" dur="0.2s" begin="1.72s" fill="freeze" />
+        <animate attributeName="ry" from="50" to="40" dur="0.2s" begin="1.72s" fill="freeze" />
+    </ellipse>
+</svg>
